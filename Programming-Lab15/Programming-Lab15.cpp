@@ -97,7 +97,7 @@ void find_phone_number()
 	{
 		if (student.surname == surname && student.initials == initials)
 		{
-			cout << "Phone number is: " << student.phone_number;
+			cout << "Phone number is: " << student.phone_number << endl;
 			is_found = true;
 			break;
 		}
@@ -105,7 +105,7 @@ void find_phone_number()
 	}
 	if (!is_found)
 	{
-		cout << "No such student in file" << endl;;
+		cout << "No such student in file" << endl;
 	}
 
 	fin.close();
